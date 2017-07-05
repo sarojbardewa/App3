@@ -32,7 +32,7 @@ public class DataBaseHelper extends SQLiteOpenHelper
         Log.w("TaskDBAdapter", "Upgrading from version " +_oldVersion + " to " +_newVersion + ", which will destroy all old data");
 
         /*
-         * TODO: Upgrade the existing database to conform to the new version. Multiple
+         * TODO: Upgrade needed
         */
 
         // previous versions can be handled by comparing _oldVersion and _newVersion
